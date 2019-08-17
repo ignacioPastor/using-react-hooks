@@ -14,7 +14,7 @@ const SpeakerDetail = React.memo(
         <div className="card-body">
           <h4 className="card-title">
             <button
-              data-sessionId={id}
+              data-sessionid={id}
               className={favorite ? 'heartredbutton' : 'heartdarkbutton'}
               onClick={e => {
                 return onHeartFavoriteHandler(e, !favorite);
